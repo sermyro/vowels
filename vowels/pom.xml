@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sm</groupId>
+	<artifactId>vowels</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Vowels Counter</name>
+	<description>Java program that loads all words and determines the 
+average number of vowels per word grouped by: set of vowels present in a word and length of the word.</description>
+
+	<properties>
+		<skip.unit.test>false</skip.unit.test>
+		<junit-version>4.12</junit-version>
+		<maven.resources.plugin.version>2.4.1</maven.resources.plugin.version>
+		<maven.surefire.plugin.version>2.12.4</maven.surefire.plugin.version>
+		<maven.cobertura.plugin>2.5.1</maven.cobertura.plugin>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<targetJdk>1.7</targetJdk>
+		<sourceJdk>1.7</sourceJdk>
+	</properties>
+	
+	<dependencies>
+		<!-- TEST DEPENDENCIES -->
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit-version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
